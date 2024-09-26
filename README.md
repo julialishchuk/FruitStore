@@ -1,0 +1,3 @@
+The architecture for the project: data, domain, and UI. The domain layer includes core data classes such as FoodItem, FoodItemFullInfo (has FoodItem + description), Foods (category name + list of FoodItems). The UI consists of two main screens, MainScreen and FoodItemDetailsScreen, and both are managed using a single FoodViewModel. I used the MVVM architectural pattern.
+
+For network communication, I chose Retrofit. The UI layer is implemented using Jetpack Compose.
